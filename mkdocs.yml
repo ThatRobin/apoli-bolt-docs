@@ -1,51 +1,54 @@
 site_name: Apoli-Bolt Documentation
 
 nav:
-	- Home: index.md
-	- Types:
-		- Power Types: power_types.md
-		- Data Types: data_types.md
-	- Action Types:
-		- Entity Action Types: entity_action_types.md
-		- Bi-entity Action Types: bientity_action_types.md
-		- Block Action Types: block_action_types.md
-		- Item Action Types: item_action_types.md
-		- Meta Action Types: meta_action_types.md
-	- Condition Types:
-		- Entity Condition Types: entity_condition_types.md
-		- Bientity Condition Types: bientity_condition_types.md
-		- Block Condition Types: block_condition_types.md
-		- Item Condition Types: item_condition_types.md
-	  	- Meta Condition Types: meta_condition_types.md
+  - Home: index.md
+  - Types:
+    - Power Types: power_types.md
+    - Data Types: data_types.md
+  - Action Types:
+    - Entity Action Types: entity_action_types.md
+    - Bi-entity Action Types: bientity_action_types.md
+    - Block Action Types: block_action_types.md
+    - Item Action Types: item_action_types.md
+    - Meta Action Types: meta_action_types.md
+  - Condition Types:
+    - Entity Condition Types: entity_condition_types.md
+    - Bientity Condition Types: bientity_condition_types.md
+    - Block Condition Types: block_condition_types.md
+    - Item Condition Types: item_condition_types.md
+      - Meta Condition Types: meta_condition_types.md
 
 theme:
-	features:
-		- content.code.copy
-	name: material
-	palette:
-		- media: "(prefers-color-scheme: dark)"
-			scheme: slate
-			primary: deep purple
-			toggle:
-				icon: material/toggle-switch-off-outline
-				name: Switch to light mode
-		- media: "(prefers-color-scheme: light)"
-			scheme: default
-			primary: deep purple
-			toggle:
-				icon: material/toggle-switch
-				name: Switch to dark mode
+  features:
+    - content.code.copy
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
 
 
 separator: '_'
 plugins:
-	- search
-	- mermaid2:
-		version: 8.6.4
-		arguments:
-			theme: 'neutral'
+  - search
+  - mermaid2:
+    version: 8.6.4
+    arguments:
+      theme: 'neutral'
 
 markdown_extensions:
   - admonition
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 extra_javascript:
   - https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js
