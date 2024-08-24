@@ -40,7 +40,7 @@ This example will set the entity on fire if the entity that has the power is on 
 ###
 
 <details>
-  <summary><font size="+2">Produced Json</font></summary>
+  <summary>Produced Json</summary>
   
 ```json
 {

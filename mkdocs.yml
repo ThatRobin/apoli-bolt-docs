@@ -20,7 +20,7 @@ nav:
 
 theme:
 	features:
-    	- content.code.copy
+		- content.code.copy
 	name: material
 	palette:
 		- media: "(prefers-color-scheme: dark)"
