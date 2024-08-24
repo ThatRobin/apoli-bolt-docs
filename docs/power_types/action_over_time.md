@@ -10,9 +10,11 @@ date: 2024-08-24
 Type ID: `apoli:action_over_time`
 
 
-### Arguments
+### Methods
 
-
+| Field       | Type | Description | 
+|-------------|------|-------------|
+| `get_phase` | [PowerPhase](../data_types/power_phase.md) | Determines the phase of the Action Over Time to use. | 
 
 ```py
 @power(
