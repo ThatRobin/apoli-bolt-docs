@@ -71,4 +71,3 @@ Type ID: `apoli:action_over_time`
         }
     }
     ```
-This example will 
