@@ -20,6 +20,8 @@ nav:
 
 theme:
     name: material
+    features:
+      - content.code.copy
     palette:
         - media: "(prefers-color-scheme: dark)"
           scheme: slate
@@ -44,9 +46,9 @@ plugins:
 
 markdown_extensions:
     - admonition
-    - pymdownx.superfences
-    - pymdownx.tabbed:
-      alternate_style: true
-		
+    #- pymdownx.superfences
+    #- pymdownx.tabbed:
+    #  alternate_style: true
+
 extra_javascript:
     - https://unpkg.com/mermaid@8.7.0/dist/mermaid.min.js
