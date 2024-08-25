@@ -2,6 +2,8 @@ site_name: Apoli-Bolt Documentation
 
 nav:
   - Home: index.md
+  - Code:
+    - Power Code: power_code.md
   - Types:
     - Power Types: power_types.md
     - Data Types: data_types.md
