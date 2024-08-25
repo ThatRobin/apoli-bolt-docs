@@ -23,7 +23,7 @@ Above this fuction, you will want to add something called a "decorator", in Apol
 === "Json"
     ```json
     {
-        "type": "apoli:test",
+        "type": "apoli:simple",
         "hidden": true
     }
     ```
