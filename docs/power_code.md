@@ -111,7 +111,7 @@ Apoli-Bolt also features some global variables, and can have much more complex s
         "entity_action": {
             "type": "apoli:if_else",
             "condition": {
-                "type": "apoli:on_fire
+                "type": "apoli:on_fire"
             },
             "if_action": {
                 "type": "apoli:extinguish"
