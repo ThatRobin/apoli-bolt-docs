@@ -24,7 +24,7 @@ Type ID: `apoli:action_over_time`
     ```py
     @power(
         type="apoli:action_over_time", 
-        condition=entity.is_on_fire()
+        condition=entity.is_on_fire(),
         interval=20
     )
     def phase_example(power: ActionOverTimePower):
