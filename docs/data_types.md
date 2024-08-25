@@ -3,7 +3,11 @@
 
 
 ### List
+* [Float](data_types/float.md)
+* [Integer](data_types/integer.md)
+* [Object](data_types/object.md)
 * [Power Phase](data_types/power_phase.md)
+* [String](data_types/string.md)
 <!---
 * [Array](data_types/array.md)
 * [Attribute Modifier](data_types/attribute_modifier.md)
@@ -15,23 +19,19 @@
 * [Comparison](data_types/comparison.md)
 * [Damage Source](data_types/damage_source.md)
 * [Display Model Type](data_types/display_model_type.md)
-* [Float](data_types/float.md)
 * [Hud Render](data_types/hud_render.md)
 * [Identifier](data_types/identifier.md)
 * [Ingredient](data_types/ingredient.md)
-* [Int](data_types/int.md)
 * [Item Slot](data_types/item_slot.md)
 * [Item Stack](data_types/item_stack.md)
 * [Key](data_types/key.md)
 * [Modifier Operation](data_types/modifier_operation.md)
-* [Object](data_types/object.md)
 * [Particle Effect](data_types/particle_effect.md)
 * [Positioned Item Stack](data_types/positioned_item_stack.md)
 * [Recipe](data_types/recipe.md)
 * [Stat](data_types/stat.md)
 * [Stat Bar Hud Render](data_types/stat_bar_hud_render.md)
 * [Status Effect Instance](data_types/status_effect_instance.md)
-* [String](data_types/string.md)
 * [Text](data_types/text.md)
 * [Vector](data_types/vector.md)
 -->
