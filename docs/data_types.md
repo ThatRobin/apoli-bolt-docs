@@ -3,6 +3,7 @@
 
 
 ### List
+<!---
 * [Array](data_types/array.md)
 * [Attribute Modifier](data_types/attribute_modifier.md)
 * [Attributed Attribute Modifier](data_types/attributed_attribute_modifier.md)
@@ -32,3 +33,4 @@
 * [String](data_types/string.md)
 * [Text](data_types/text.md)
 * [Vector](data_types/vector.md)
+-->
