@@ -16,6 +16,10 @@ Type ID: `apoli:action_over_time`
 |-------------|------|-------------|
 | `get_phase` | [PowerPhase](../data_types/power_phase.md) | Determines the phase of the Action Over Time to use. | 
 
+
+??? Note
+    You cannot use PowerPhases with `if-else` statements, due to the nature of how apoli parses json, the `else` is unabable to be parsed, and will result in a warning in the console.
+
 === "Apoli-Bolt"
     ```py
     @power(
@@ -67,4 +71,4 @@ Type ID: `apoli:action_over_time`
         }
     }
     ```
-This example will set the entity on fire if the entity that has the power is on fire, essentially making the entity burn indefinitely unless the entity manages to extinguish the fire.
+This example will 
