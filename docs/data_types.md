@@ -3,6 +3,7 @@
 
 
 ### List
+* [Power Phase](data_types/power_phase.md)
 <!---
 * [Array](data_types/array.md)
 * [Attribute Modifier](data_types/attribute_modifier.md)

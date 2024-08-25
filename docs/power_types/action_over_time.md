@@ -14,7 +14,7 @@ Type ID: `apoli:action_over_time`
 
 | Field       | Type | Description | 
 |-------------|------|-------------|
-| `get_phase` | [PowerPhase](../data_types/power_phase.md) | Determines the phase of the Action Over Time to use. | 
+| `get_phase` | [Power Phase](../data_types/power_phase.md) | Determines the phase of the Action Over Time to use. | 
 
 
 ??? Note
