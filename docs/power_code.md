@@ -118,7 +118,7 @@ Apoli-Bolt also features some global variables, and can have much more complex s
             },
             "else_action": {
                 "type": "apoli:set_on_fire",
-                duration: 8
+                "duration": 8
             }
         },
         "cooldown": 20
