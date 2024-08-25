@@ -1,6 +1,7 @@
 # Meta Condition Types
 
-
+!!! Note
+	This plugin is still in beta, so not all conditions are fully implemented yet.
 
 ### List
 <!---
