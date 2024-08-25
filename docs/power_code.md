@@ -1,10 +1,10 @@
 # Power Code
 
-In Apoli-Beet, the structure for creating powers is rather different from the format usually used in Apoli, due to Apoli-Beets python-like syntax.
+In Apoli-Bolt, the structure for creating powers is rather different from the format usually used in Apoli, due to Apoli-Bolts python-like syntax.
 
 #### Creating a Function:
 
-In order to create a basic power type in Apoli-Beet, you create an empty python function, like so:
+In order to create a basic power type in Apoli-Bolt, you create an empty python function, like so:
 ```py
 def launch_into_air():
     pass
@@ -13,7 +13,7 @@ This example creates an empty function called "launch_into_air".
 
 #### Adding the Decorator:
 
-Above this fuction, you will want to add something called a "decorator", in Apoli-Beet, the "power" decorator is what you add in order to specify that your function will be used in making powers.
+Above this fuction, you will want to add something called a "decorator", in Apoli-Bolt, the "power" decorator is what you add in order to specify that your function will be used in making powers.
 === "Apoli-Bolt"
     ```py
     @power("apoli:simple")
