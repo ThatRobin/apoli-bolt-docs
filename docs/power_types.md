@@ -2,7 +2,8 @@
 
 Some powers provide power-specific arguments to their functions. A list of these powers can be found below.
 
-<sub>This plugin is still in beta, so not all powers are fully implemented yet.</sub>
+!!! Note
+	This plugin is still in beta, so not all powers are fully implemented yet.
 
 ### Action-related
 * [Action Over Time](power_types/action_over_time.md)
