@@ -1,4 +1,4 @@
-# BiEntity Action Types
+# Bi-entity Action Types
 
 
 
