@@ -53,7 +53,7 @@ This method of writing powers can be used on its own in order to create any json
         entity_action={
             type: "apoli:if_else",
             condition: {
-                type: "apoli:on_fire
+                type: "apoli:on_fire"
             },
             if_action: {
                 type: "apoli:extinguish"
