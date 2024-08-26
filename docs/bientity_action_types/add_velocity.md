@@ -16,7 +16,7 @@ Method Name: `.add_velocity()`
 
 ### Arguments
 
-| Field        | Type                                    | Optional   | Description                                                                                                  |
+| Field        | Type                                    | Default   | Description                                                                                                  |
 |--------------|-----------------------------------------|------------|--------------------------------------------------------------------------------------------------------------|
 | `x`          | [Float](../data_types/float.md)         | 0.0        | The amount of velocity to add on the x-axis.                                                                 | 
 | `y`          | [Float](../data_types/float.md)         | 0.0        | The amount of velocity to add on the y-axis.                                                                 | 

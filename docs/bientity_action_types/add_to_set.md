@@ -14,7 +14,7 @@ Method Name: `.add_to_set()`
 
 ### Arguments
 
-| Field         | Type                                    | Optional   | Description                                                                                                  |
+| Field         | Type                                    | Default   | Description                                                                                                  |
 |---------------|-----------------------------------------|------------|--------------------------------------------------------------------------------------------------------------|
 | `set`         | [String](../data_types/string.md)       |            | The ID of the power to add the target entity into.                                                           | 
 | `time_limit`  | [Integer](../data_types/power_phase.md) | *optional* | If specified, this will determine how long the target entity will be stored in the specified power in ticks. | 

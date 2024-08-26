@@ -14,7 +14,7 @@ Method Name: `.remove_from_set()`
 
 ### Arguments
 
-| Field | Type                              | Optional | Description                                           |
+| Field | Type                              | Default | Description                                           |
 |-------|-----------------------------------|----------|-------------------------------------------------------|
 | `set` | [String](../data_types/string.md) |          | The ID of the power to remove the target entity from. | 
 

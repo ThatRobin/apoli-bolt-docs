@@ -14,7 +14,7 @@ Method Name: `.damage()`
 
 ### Arguments
 
-| Field          | Type                                    | Optional   | Description                                                                                                  |
+| Field          | Type                                    | Default   | Description                                                                                                  |
 |----------------|-----------------------------------------|------------|--------------------------------------------------------------------------------------------------------------|
 | `amount`       | [Float](../data_types/float.md)         |            | The amount of damage to deal.                                                             | 
 | `damage_type`  | [String](../data_types/string.md)       |            | Defines the properties of the damage source that will be dealt, such as part of its death message, and whether it can bypass armor, shield, etc. (via damage type tags.) | 
