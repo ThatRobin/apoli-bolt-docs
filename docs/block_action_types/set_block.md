@@ -1,15 +1,15 @@
 ---
-title: Add Block (Block Action Type)
+title: Set Block (Block Action Type)
 date: 2024-08-25
 ---
 
-# Add Block
+# Set Block
 
 [Block Action Type](../block_action_types.md)
 
-Adds a block at the specified action position. Adding means setting the block at the position, offset by the direction of the action.
+Overwrites the block at the targeted position with the default state of another one.
 
-Method Name: `.add_block()`
+Method Name: `.set_block()`
 
 
 ### Arguments

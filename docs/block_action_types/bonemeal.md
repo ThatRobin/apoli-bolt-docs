@@ -1,15 +1,15 @@
 ---
-title: Add Block (Block Action Type)
+title: Bonemeal (Block Action Type)
 date: 2024-08-25
 ---
 
-# Add Block
+# Bonemeal
 
 [Block Action Type](../block_action_types.md)
 
 Applies bone meal to the target block as if a dispenser or a player used a Bone Meal item to it.
 
-Method Name: `.add_block()`
+Method Name: `.bonemeal()`
 
 
 ### Arguments
